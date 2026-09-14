@@ -46,8 +46,8 @@ for item in &queued.results {
 
 Currently supported data sources include:
 
-- [Client Gateway](./cargo/src/scg) - queued transactions, decoded transfers and settings changes
-- [Transaction Service](./cargo/src/stx) - safe configuration, multisig transactions and confirmations
+- [Client Gateway](https://github.com/v3xlabs/eth-safe/tree/master/cargo/src/scg) - queued transactions, decoded transfers and settings changes
+- [Transaction Service](https://github.com/v3xlabs/eth-safe/tree/master/cargo/src/stx) - safe configuration, multisig transactions and confirmations
 
 ## Self Hosting
 

@@ -10,3 +10,14 @@ repository = "https://github.com/v3xlabs/eth-safe/"
 crate-type = ["rlib"]
 
 [dependencies]
+alloy-primitives = { version = "1.7.3", features = ["serde"] }
+chrono = { version = "0.4.42", default-features = false, features = ["serde", "std"] }
+reqwest = "0.13.5"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.151"
+strum = { version = "0.27.2", features = ["derive"] }
+thiserror = "2.0.17"
+url = "2.5.8"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
