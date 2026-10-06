@@ -3,7 +3,7 @@ pub mod page;
 use serde::de::DeserializeOwned;
 use url::Url;
 
-use crate::Error;
+use crate::prelude::*;
 
 const BODY_EXCERPT_CHARS: usize = 512;
 

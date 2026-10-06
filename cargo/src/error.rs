@@ -1,7 +1,6 @@
 use reqwest::StatusCode;
 use url::Url;
-
-use crate::NetworkIdOrSafeSlug;
+use crate::prelude::NetworkIdOrSafeSlug;
 
 #[derive(Debug, thiserror::Error)]
 pub enum Error {

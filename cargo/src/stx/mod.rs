@@ -8,7 +8,7 @@ use std::collections::HashMap;
 
 use url::Url;
 
-use crate::{Error, NetworkId, NetworkIdOrSafeSlug, NetworkSafeSlug, http};
+use crate::prelude::*;
 
 pub const DEFAULT_BASE_URL: &str = "https://api.safe.global/tx-service";
 
